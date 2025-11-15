@@ -27,6 +27,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.lock
 MANIFEST
 
 # PyInstaller
@@ -142,7 +143,7 @@ venv.bak/
 # Work environment
 .vscode/
 .vscode
-
+.specstory
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -160,7 +161,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
+.cursorindexingignore
 # pytype static type analyzer
 .pytype/
 
